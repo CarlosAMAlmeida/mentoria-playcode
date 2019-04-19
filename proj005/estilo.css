@@ -1,0 +1,75 @@
+﻿body {
+    background-color: #9b9b9b;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+caption {
+    background-color: #ffffff;
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 3px 3px 0 0;
+    /*Copiado da solução*/
+    box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.26);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+table {
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    border-radius: 0 0 3px 3px;
+    border-collapse: collapse;
+}
+
+thead th {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+tbody tr {
+    font-size: 13px;
+    font-weight: 400;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+tfoot {
+    text-align: right;
+    font-size: 12px;
+    font-weight: 400;
+    /*Copiado da solução*/
+    opacity: 0.5;
+}
+
+select {
+    border: none;
+    margin-right: 40px;
+    /*Copiado da solução*/
+    background-color: transparent;
+}
+
+.quantidade {
+    margin-right: 40px;
+}
+
+tfoot td img {
+    margin-right: 30px;
+}
+
+th,
+td {
+    padding: 20px 0 20px 0;
+}
+
+tbody tr:hover {
+    background-color: #eeeeee;
+}
+
+.check {
+    text-align: center;
+    padding: 5px;
+}
