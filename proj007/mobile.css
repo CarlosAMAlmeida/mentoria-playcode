@@ -1,0 +1,30 @@
+ header nav {
+        display: none;
+    }
+
+    header h1 {
+        margin-left: 20px;
+    }
+
+    section#topo {
+        padding: 20px;
+    }
+
+    section#conheca .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#conheca .container .texto {
+        padding: 10px;
+    }
+
+    section#conheca .container .texto a {
+        width: 100%;
+    }
+
+    section#convite form {
+        display: block;
+        text-align: center;
+        width: 80%;
+    }
