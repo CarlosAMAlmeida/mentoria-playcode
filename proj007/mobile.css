@@ -1,30 +1,33 @@
  header nav {
-        display: none;
-    }
+     /*copiado da solução*/
+     display: none;
+ }
 
-    header h1 {
-        margin-left: 20px;
-    }
+ header h1 {
+     margin-left: 20px;
+ }
 
-    section#topo {
-        padding: 20px;
-    }
+ #topo {
+     padding: 20px;
+ }
 
-    section#conheca .container {
-        flex-direction: column;
-        align-items: center;
-    }
+ #conheca .container {
+     /*copiado da solução*/
+     flex-direction: column;
+     align-items: center;
+ }
 
-    section#conheca .container .texto {
-        padding: 10px;
-    }
+ #conheca .container .texto {
+     padding: 10px;
+ }
 
-    section#conheca .container .texto a {
-        width: 100%;
-    }
+ #conheca .container .texto a {
+     width: 100%;
+ }
 
-    section#convite form {
-        display: block;
-        text-align: center;
-        width: 80%;
-    }
+ #convite form {
+     /*copiado da solução*/
+     display: block;
+     text-align: center;
+     width: 80%;
+ }
