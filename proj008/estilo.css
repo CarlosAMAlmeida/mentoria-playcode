@@ -1,0 +1,198 @@
+body {
+    /* Copiado da solução */
+    display: flex;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+aside {
+    width: 210px;
+    /* Copiado da solução */
+    height: 150vh;
+    background-color: #242536;
+}
+
+aside h1 {
+    background-image: url(imagens/logo.png);
+    background-repeat: no-repeat;
+    margin: 0px;
+    height: 60px;
+    /* Copiado da solução */
+    background-position: center center;
+    background-color: #151524;
+}
+
+aside h1 span {
+    visibility: hidden;
+}
+
+/* Copiado da solução */
+aside ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+aside li {
+    list-style: none;
+    height: 50px;
+    /* Copiado da solução */
+    line-height: 50px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+aside li:hover {
+    background-color: #151524;
+    border-left: 3px solid #ffb946;
+    /* Copiado da solução */
+    cursor: pointer;
+    padding-left: 12px;
+}
+
+aside li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+aside li span {
+    /* Copiado da solução */
+    color: rgba(255, 255, 255, 0.6);
+    float: center;
+    margin-right: 15px;
+}
+
+/* Copiado da solução */
+section#pagina {
+    width: 100%;
+}
+
+section#pagina header {
+    height: 60px;
+    background-color: #242536;
+    display: flex;
+    align-items: center;
+    /* Copiado da solução */
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+section#pagina .botoes {
+    height: 60px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+section#pagina .botoes ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+}
+
+section#pagina .botoes li {
+    display: inline-block;
+    line-height: 60px;
+}
+
+section#pagina .botoes li a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #0f0f0f;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+section#pagina .botoes li a:hover {
+    color: #ffb946;
+    /* Copiado da solução */
+    box-shadow: 0px -3px 0px #ffb946 inset;
+}
+
+section#pagina .container {
+    height: 300px;
+    padding: 20px;
+}
+
+section#pagina .container .formulario {
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+form ul {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+form li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+form h2 {
+    font-size: 20px;
+    color: #161616;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+form input,
+form select {
+    width: 400px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+form span {
+    display: block;
+    width: 400px;
+    margin-top: 5px;
+}
+
+form select {
+    color: #c5c5c5;
+}
+
+/* Copiado da solução */
+::-webkit-input-placeholder {
+    color: #c5c5c5;
+}
+
+form li.feito {
+    background-image: url(imagens/feito.png);
+    background-repeat: no-repeat;
+    background-position: top 10px right;
+    /* Copiado da solução */
+    width: 430px;
+}
+
+form button {
+    width: 400px;
+    height: 40px;
+    background-color: #3aca60;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.opcoes li {
+    font-size: 14px;
+    display: flex;
+    width: 400px;
+}
+
+.opcoes input {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
